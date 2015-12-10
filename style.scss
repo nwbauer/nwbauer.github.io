@@ -179,25 +179,26 @@ img {
 }
 
 .site-avatar {
-  border-radius: 4px;
-}
-@media screen and (max-width: 640px) {
-  .site-avatar {
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin-right: 15px;
+
+  @include mobile {
     float: none;
     display: block;
     margin: 0 auto;
   }
-}
-.site-avatar img {
-  border-radius: 5px;
-  border-bottom-right-radius: 2em;
+
+  img {
+    border-radius: 5px;
+  }
 }
 
 .site-info {
   float: left;
-}
-@media screen and (max-width: 640px) {
-  .site-info {
+
+  @include mobile {
     float: none;
     display: block;
     margin: 0 auto;
