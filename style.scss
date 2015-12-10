@@ -255,6 +255,13 @@ nav a {
   border-radius: 6px;
   border: 1px solid #fff;
   box-shadow: 1px 1px 5px #000;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f7f7+1,f4f4f4+79,eaeaea+100 */
+background: #f7f7f7; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #f7f7f7 1%, #f4f4f4 79%, #eaeaea 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  #f7f7f7 1%,#f4f4f4 79%,#eaeaea 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  #f7f7f7 1%,#f4f4f4 79%,#eaeaea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#eaeaea',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
 }
 
 .posts > .post:last-child {
