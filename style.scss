@@ -159,12 +159,19 @@ img {
   margin-bottom: 50px;
   background-color: #FFDEA1;
   box-shadow: 1px 1px 10px #8A8A8A;
+  position: fixed;
+  width: 100%;
 }
 
 .masthead {
   padding: 20px 0;
   border-bottom: 1px solid #eee;
 }
+
+#main {
+    padding-top: 140px;
+}
+
 @media screen and (max-width: 640px) {
   .masthead {
     text-align: center;
