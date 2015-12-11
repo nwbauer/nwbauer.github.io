@@ -4,12 +4,16 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
 
-### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+### Web Development
+
+Here is a list of link to websites that I have built:
+
+* [research group website](http://www.heemels.tue.nl/ "Maurice Heemels TUE")
+* [food service website](https://wcvending.com "West Coast Vending and Food Service")
+
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[nicolaswilliam.bauer@gmail.com](mailto:nicolaswilliam.bauer@gmail.com)
