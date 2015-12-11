@@ -152,8 +152,10 @@ img {
   clear: both;
 }
 
-.floatleft{
-  float:left;
+.two-image-across{
+  display: inline-block;
+  margin: 0px 4%;
+  width: 40%;
 }
 
 /*********************/
