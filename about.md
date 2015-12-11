@@ -10,7 +10,7 @@ permalink: /about/
 
 Here is a list of link to websites that I have built:
 
-[![West Coast Vending and Food Service]({{ site.baseurl }}/images/heemels.png)](http://www.heemels.tue.nl/ "Maurice Heemels TUE")
+[![West Coast Vending and Food Service]({{ site.baseurl }}/images/heemels.png){: .center-image }](http://www.heemels.tue.nl/ "Maurice Heemels TUE")
 
 [![Maurice Heemels TUE]({{ site.baseurl }}/images/wcvending.png)](https://wcvending.com "West Coast Vending and Food Service")
 
