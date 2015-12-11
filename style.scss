@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1:not(.site-name) {
   font-size: 30px;
-  border-bottom: 1px dashed #7F7F7D;
+  border-bottom: 1px double #7F7F7D;
   margin-top: 10px;
   color: #848484;
 }
@@ -269,7 +269,7 @@ nav a {
   background-color: #F7F7F7;
   border-radius: 6px;
   border: 1px solid #fff;
-  box-shadow: 1px 1px 5px #000;
+  box-shadow:  1px 2px 3px rgb(122, 122, 122);
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f7f7+1,f4f4f4+79,eaeaea+100 */
 background: #f7f7f7; /* Old browsers */
 background: -moz-radial-gradient(center, ellipse cover,  #f7f7f7 1%, #f4f4f4 79%, #eaeaea 100%); /* FF3.6-15 */

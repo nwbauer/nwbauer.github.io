@@ -10,8 +10,8 @@ permalink: /about/
 
 Here is a list of link to websites that I have built:
 
-* [research group website](http://www.heemels.tue.nl/ "Maurice Heemels TUE")
-* [food service website](https://wcvending.com "West Coast Vending and Food Service")
+* [Research group website](http://www.heemels.tue.nl/ "Maurice Heemels TUE")
+* [Food service website](https://wcvending.com "West Coast Vending and Food Service")
 
 
 ### Contact me
