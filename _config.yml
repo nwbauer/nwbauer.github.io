@@ -6,7 +6,7 @@
 name: Nicolas Bauer
 
 # Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+description: Math, coding, and the persuit of improving education
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://github.com/nwbauer/nwbauer.github.io/blob/master/images/nick.jpg?raw=true
@@ -54,7 +54,7 @@ baseurl: ""
 #
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rogue
 permalink: /:title/
 
 # The release of Jekyll Now that you're using
