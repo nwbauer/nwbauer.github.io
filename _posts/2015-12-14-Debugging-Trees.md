@@ -15,10 +15,12 @@ A somewhat naive approach (which I have tried) is to litter your code with conso
 
 A better approach is to use the console.log to simply display the tree itself, as your code searches through the tree.  Below, I have crafted a helper function to do just that.  Evoking the following helper function within your tree traversal algorithm will display the tree structure, along with some debugging info:
 
-	function reportBack(level,leafNr,info){
-	  var levelIndicator = Array(2+level).join("| ");
-	  console.log(levelIndicator + "-[" + leafNr + "]\t\t" + info);
-	}
+{% highlight javascript %}
+function reportBack(level,leafNr,info){
+  var levelIndicator = Array(2+level).join("| ");
+  console.log(levelIndicator + "-[" + leafNr + "]\t\t" + info);
+}
+{% endhighlight %}
 
 where the inputs are
 
