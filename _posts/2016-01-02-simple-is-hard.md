@@ -5,7 +5,6 @@ title: Simple Is Hard - Tips on Presenting Solutions
 
 Engineers solve problems.  Finding a solution is only a small part of the work.  The more challenging aspect is conveying your solution to others and convincing others (colleagues/peers) that your solution is the 'best' for your particular problem.  I have given a handful of presentations at engineering conferences, and have been in the audience for many others, so I thought I would give my two cents on the matter.  
 
-
 ##Presentation Pitfalls
 
 There are a few presentation pitfalls that should be avoided (at all costs):
@@ -36,3 +35,4 @@ Here are a few take-aways to always keep in mind when making presentations:
 * Have fun!  You are the upper-bound for the amount of excitement in the room. Be cognizant of the energy you are projecting, it matters.
 
 Presenting a technical subject to peers is challenging. There will always be too much information to talk about, so break your solution down into core pieces and then weave them together into a story.  Aim to make your story as simple as possible so that your audience can follow along.  Simple is hard, but in the end, you will not only have a enjoyable presentation, but hopefully you will gain some new insights into your solution as well.
+
