@@ -21,7 +21,7 @@ JSCS is a popular code syle checker/enforcer. Installing JSCS is a four-step pro
 
 * Jscs needs to be first installed as a node package.  From the terminal, run `npm install jscs -g`r so that it JSCS is globally available on your machine (if you are interested, readme is [here](http://jscs.info/overview)).
 
-* Next, install the Sublime plugin 'SublimeLinter' so that Sublime can use JSCS.  Launch Sublime, Shift+Command+P,  choose 'Package Control: Install Package', type 'SublimeLinter' and choose it from the dropdown list to install the plug-in.
+* Next, install the Sublime plugin 'SublimeLinter'.  Launch Sublime, Shift+Command+P,  choose 'Package Control: Install Package', type 'SublimeLinter' and choose it from the dropdown list to install the plug-in.
 
 * Next, install 'SublimeLinter-jscs' by choosing it from the Install Package dropdown list to install the plug-in. [Note 'SublimeLinter-jscs' will only appear in Sublime v3.]
 
