@@ -13,13 +13,14 @@ Once package control is installed, you should be able to press Shift+Command+P a
 
 ![Package Control]({{ site.url }}/images/package-control.png)
 
-Later in this post, I will list the packages that I find helpful.  But first, we will install jscs, which is a three step process.
-
+Later in this post, I will list the packages that I find helpful.  But first, we will install JSCS.
 ## JSCS
 
-* Jscs needs to be first installed as a node package.  From the terminal, run `npm install jscs -g` so that it jscs is globally available on your machine (if you are interested, readme is [here](http://jscs.info/overview)).
+Installing JSCS is a three-step process:
 
-* Next, install the Sublime plugin so that Sublime can use jscs.  Launch Sublime, Shift+Command+P,  choose 'Package Control: Install Package', type 'SublimeLinter-jscs' and choose it from the dropdown list to install the plug-in.
+* Jscs needs to be first installed as a node package.  From the terminal, run `npm install jscs -g` so that it JSCS is globally available on your machine (if you are interested, readme is [here](http://jscs.info/overview)).
+
+* Next, install the Sublime plugin so that Sublime can use JSCS.  Launch Sublime, Shift+Command+P,  choose 'Package Control: Install Package', type 'SublimeLinter-jscs' and choose it from the dropdown list to install the plug-in.
 
 * After SublimeLinter-jscs is installed, you need to specify the linting rules. The rules can be specified by directory (per project), but it is helpful to setup a default rules file that is applied to any javascript document that is a child of your home folder directory (and does not have a rules file).  To setup a default rules file, just create a file in your home directory [~] called '.jscsrc' and paste in the following code:
 
@@ -31,15 +32,15 @@ Later in this post, I will list the packages that I find helpful.  But first, we
 {% endhighlight %}
 </div>
 
-Jscsrc has a really convenient "preset" option where many popular linting rule sets are pre-defined.  You can look at the presets on the jscs readme, given above.
+Jscsrc has a really convenient "preset" option where many popular linting rule sets are pre-defined.  You can look at the presets on the JSCS readme, given above.
 
-Now, you should have jscs linting up and running.  Let's test if it is working.  If you open a javascript document in Sublime, you should see faint yellow boxes that surround linting errors. Error messages will appear at the bottom of the Sublime window.  A common linting error for airbnb is spaces around parenthesis (so "function(){" will throw a warning that you need spaces).  Here is an example:
+Now, you should have JSCS linting up and running.  Let's test if it is working.  If you open a javascript document in Sublime, you should see faint yellow boxes that surround linting errors. Error messages will appear at the bottom of the Sublime window.  A common linting error for airbnb is spaces around parenthesis (so "function(){" will throw a warning that you need spaces).  Here is an example:
 
 ![JSCS warning]({{ site.url }}/images/linter-error.png){: .two-image-across}
 ![JSCS warning]({{ site.url }}/images/linter-message.png)
 
 
-This is cool, but the airbnb style guidelines does not check for things like unused variables.  To enable this ability, you need jsHint, which is another linting tool. 
+This is cool, but the airbnb style guidelines does not check for things like unused variables.  To enable this ability, you need jsHint, which is another linting tool.
 
 ## jsHint
 
