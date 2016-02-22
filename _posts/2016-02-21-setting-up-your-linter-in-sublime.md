@@ -5,6 +5,8 @@ title: Setting Up Your Linter In Sublime
 
 Linters are time savers, so you should have one installed.  This post will walk you through setting up a linter that follows the airbnb style guide in Sublime (here is the [guide definition](https://github.com/airbnb/javascript)).  Specifically, I will walk-through installation of Package Control, SublimeLinter-jscs, SublimeLinter-jshint and Trailing Spaces.
 
+## Package Manager
+
 Sublime does not come with a package manager, so if you don't have Package Control installed, [go here and install it](https://packagecontrol.io/installation).
 
 Once package control is installed, you should be able to press Shift+Command+P and then type in 'install' to get the 'Package Control: Install Package' option.  This option will allow you to search for Sublime plug-ins and install them in one click.
@@ -13,7 +15,9 @@ Once package control is installed, you should be able to press Shift+Command+P a
 
 Later in this post, I will list the packages that I find helpful.  But first, we will install jscs, which is a three step process.
 
-* Jscs needs to be first installed as a node package.  From the terminal, run `npm install jscs -g` so that it jscs is globally available on your machine (if you are interested, readme is [here](http://jscs.info/overview)). 
+## JSCS
+
+* Jscs needs to be first installed as a node package.  From the terminal, run `npm install jscs -g` so that it jscs is globally available on your machine (if you are interested, readme is [here](http://jscs.info/overview)).
 
 * Next, install the Sublime plugin so that Sublime can use jscs.  Launch Sublime, Shift+Command+P,  choose 'Package Control: Install Package', type 'SublimeLinter-jscs' and choose it from the dropdown list to install the plug-in.
 
@@ -35,7 +39,11 @@ Now, you should have jscs linting up and running.  Let's test if it is working. 
 ![JSCS warning]({{ site.url }}/images/linter-message.png)
 
 
-This is cool, but the airbnb style guidelines does not check for things like unused variables.  To enable this, you need jsHint, which is another linting tool.  To install jsHint, choose 'SublimeLinter-jsHint' using the Sublime Package Control.
+This is cool, but the airbnb style guidelines does not check for things like unused variables.  To enable this ability, you need jsHint, which is another linting tool. 
+
+## jsHint
+
+To install jsHint, choose 'SublimeLinter-jsHint' using the Sublime Package Control.
 
 Once again, you need to set default settings.  To do this, just create a file in your home directory [~] called '.jshintrc' and paste in the following code:
 
@@ -138,6 +146,7 @@ Now, let's see if jsHint is working.  If you go back to a javascript document in
 
 ![JSCS warning]({{ site.url }}/images/linter-message2.png)
 
+## Trailing Spaces
 
 Finally, to complete the linter install, the last package I would recommend is Trailing Spaces.  This will highlight any spaces in your code.  Spaces are easy to sneak by unnoticed, so this package helps.
 
@@ -146,6 +155,8 @@ To install Trailing Spaces, choose 'Trailing Spaces' using the Sublime Package C
 ![JSCS warning]({{ site.url }}/images/linter-error3.png){: .two-image-across}
 
 Now, you should have cleanly spaced code, fewer unnoticed syntax errors, no random spaces, and more time which you can use for coding!
+
+## Other Awesome Sublime Packages
 
 Here are a list of other Sublime packages which are really useful:
 
