@@ -3,9 +3,9 @@ layout: post
 title: Setting Up Your Linter In Sublime
 ---
 
-Linters are time savers, so you should have one installed.  This post will walk you through setting up a linter that follows the airbnb style guide in Sublime (here is the [guide definition](https://github.com/airbnb/javascript)).  Specifically, I will walk-through installation of Package Control, SublimeLinter-jscs, SublimeLinter-jshint and Trailing Spaces.
+Linters are time savers.  They help spot syntax errors, undeclared variables, and make your code look consistent.  This post will walk you through setting up a linter that follows the airbnb style guide in Sublime (here is the [guide definition](https://github.com/airbnb/javascript)).  Specifically, I will walk-through installation of Package Control, SublimeLinter-jscs, SublimeLinter-jshint and Trailing Spaces.
 
-## Package Manager
+## Package Control
 
 Sublime does not come with a package manager, so if you don't have Package Control installed, [go here and install it](https://packagecontrol.io/installation).
 
