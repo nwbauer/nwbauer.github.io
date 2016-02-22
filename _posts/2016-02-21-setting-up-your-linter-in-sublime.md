@@ -33,7 +33,7 @@ Installing JSCS is a three-step process:
 {% endhighlight %}
 </div>
 
-Jscsrc has a really convenient "preset" option where many popular linting rule sets are pre-defined.  You can look at the presets on the JSCS readme, given above.
+JSCS has a really convenient "preset" option where many popular linting rule sets are pre-defined.  You can look at the presets on the JSCS readme, given above.
 
 Now, you should have JSCS linting up and running.  Let's test if it is working.  If you open a javascript document in Sublime, you should see faint yellow boxes that surround linting errors. Error messages will appear at the bottom of the Sublime window.  A common linting error for airbnb is spaces around parenthesis (so "function(){" will throw a warning that you need spaces).  Here is an example:
 
