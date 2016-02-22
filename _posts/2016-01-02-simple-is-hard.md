@@ -3,9 +3,9 @@ layout: post
 title: Simple Is Hard - Tips on Presenting Solutions
 ---
 
-Engineers solve problems.  Finding a solution is only a small part of the work.  The more challenging aspect is conveying your solution to others and convincing others (colleagues/peers) that your solution is the 'best' for your particular problem.  I have given a handful of presentations at engineering conferences, and have been in the audience for many others, so I thought I would give my two cents on the matter.  
+Engineers solve problems.  Finding a solution is only a small part of the work.  The more challenging aspect is conveying your solution to others and convincing others (colleagues/peers) that your solution is the 'best' for your particular problem.  I have given a handful of presentations at engineering conferences, and have been in the audience for many others, so I thought I would give my two cents on the matter.
 
-##Presentation Pitfalls
+## Presentation Pitfalls
 
 There are a few presentation pitfalls that should be avoided (at all costs):
 
@@ -20,7 +20,7 @@ There are a few presentation pitfalls that should be avoided (at all costs):
 * **Skipping Around -**  Nobody likes a story with plot-holes, and presenting a solution is no different.  Make your presentation read like a story. It must flow as you progress forward in order to keep your audience's attention. Don't reference detailed information a few slides back, don't talk about things that haven't been properly introduced. Once an audience member is lost, they stop paying close attention, start thinking about their cat, and it is much more difficult to win them back later.  
 
 
-##Presentation Tips
+## Presentation Tips
 
 Here are a few take-aways to always keep in mind when making presentations:
 

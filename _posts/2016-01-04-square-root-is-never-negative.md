@@ -3,7 +3,7 @@ layout: post
 title: The Square Root Is Never Negative
 ---
 
-At some point in your beginning algebra class, you were taught that taking the square root is the way to 'undo' squaring a number. Although seemingly trivial, this is not exactly true.  This happens to be one of the more confusing topics is that frequently glossed-over.  Most students just memorize a square root's two main properties, and move on.  Those properties are (i) it is used for finding $$x$$ when given $$x^2$$ and (ii) it always outputs a non-negative value (given a non-negative input). But there are some subtle details to be mindful of, and an interesting functional composition behind its existence.  
+At some point in your beginning algebra class, you were taught that taking the square root is the way to 'undo' squaring a number. Although seemingly trivial, this is not exactly true.  This happens to be one of the more confusing topics is that frequently glossed-over.  Most students just memorize a square root's two main properties, and move on.  Those properties are (i) it is used for finding $$x$$ when given $$x^2$$ and (ii) it always outputs a non-negative value (given a non-negative input). But there are some subtle details to be mindful of, and an interesting functional composition behind its existence.
 
 ## The Problem
 
