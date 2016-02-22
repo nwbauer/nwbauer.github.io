@@ -14,6 +14,7 @@ Once package control is installed, you should be able to press Shift+Command+P a
 ![Package Control]({{ site.url }}/images/package-control.png)
 
 Later in this post, I will list the packages that I find helpful.  But first, we will install JSCS.
+
 ## JSCS
 
 Installing JSCS is a three-step process:
