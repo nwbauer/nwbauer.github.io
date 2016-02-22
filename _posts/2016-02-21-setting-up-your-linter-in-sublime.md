@@ -13,15 +13,15 @@ Once package control is installed, you should be able to press Shift+Command+P a
 
 ![Package Control]({{ site.url }}/images/package-control.png)
 
-Later in this post, I will list the packages that I find helpful.  But first, we will install JSCS.
+Later in this post, I will list the packages that I find helpful.  But first, we will install the linting packages.
 
 ## JSCS
 
-Installing JSCS is a three-step process:
+JSCS is a popular code syle checker/enforcer. Installing JSCS is a three-step process:
 
-* Jscs needs to be first installed as a node package.  From the terminal, run `npm install jscs -g` so that it JSCS is globally available on your machine (if you are interested, readme is [here](http://jscs.info/overview)).
+* Jscs needs to be first installed as a node package.  From the terminal, run `npm install jscs -g`r so that it JSCS is globally available on your machine (if you are interested, readme is [here](http://jscs.info/overview)).
 
-* Next, install the Sublime plugin so that Sublime can use JSCS.  Launch Sublime, Shift+Command+P,  choose 'Package Control: Install Package', type 'SublimeLinter-jscs' and choose it from the dropdown list to install the plug-in.
+* Next, install the Sublime plugin so that Sublime can use JSCS.  Launch Sublime, Shift+Command+P,  choose 'Package Control: Install Package', type 'SublimeLinter-jscs' and choose it from the dropdown list to install the plug-in. [Note 'SublimeLinter-jscs' will only appear in Sublime v3.]
 
 * After SublimeLinter-jscs is installed, you need to specify the linting rules. The rules can be specified by directory (per project), but it is helpful to setup a default rules file that is applied to any javascript document that is a child of your home folder directory (and does not have a rules file).  To setup a default rules file, just create a file in your home directory [~] called '.jscsrc' and paste in the following code:
 
@@ -45,7 +45,7 @@ This is cool, but the airbnb style guidelines does not check for things like unu
 
 ## jsHint
 
-To install jsHint, choose 'SublimeLinter-jsHint' using the Sublime Package Control.
+JsHint is yet another popular code syle checker/enforcer, but with slightly different rules than JSCS. To install jsHint, choose 'SublimeLinter-jsHint' using the Sublime Package Control.
 
 Once again, you need to set default settings.  To do this, just create a file in your home directory [~] called '.jshintrc' and paste in the following code:
 
@@ -168,6 +168,7 @@ Here are a list of other Sublime packages which are really useful:
 * Emmet
 * Side Bar
 * Terminal
+* All Autocomplete
 
 Enjoy.
 
