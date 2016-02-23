@@ -39,7 +39,7 @@ JSCS is a popular code syle checker/enforcer. Installing JSCS is a three-step pr
 {% endhighlight %}
 </div>
 
-JSCS has a really convenient "preset" option where many popular linting rule-sets are pre-defined.  You can look at the presets on the JSCS readme, given above.
+JSCS has a really convenient "preset" option where many popular linting rule-sets are pre-defined.  You can look at the presets in the JSCS readme, given above.
 
 To ensure that that your code is linted as you type, you can right click on a document, choose Sublime Linter > Lint Mode > Background.
 
