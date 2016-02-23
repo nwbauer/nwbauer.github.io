@@ -3,7 +3,7 @@ layout: post
 title: Setting Up Your Linter In Sublime
 ---
 
-Linters are time savers.  They help spot syntax errors, undeclared variables, and make your code look consistent.  This post will walk you through setting up a JavaScript linter that follows the popular Airbnb style guide in Sublime (here is the [Airbnb guide definition](https://github.com/airbnb/javascript)). Specifically, I will walk through installation of Package Control, SublimeLinter-jscs, SublimeLinter-jshint and Trailing Spaces.
+Linters are time savers.  They help spot syntax errors, undeclared variables, and make your code look consistent.  This post will walk you through setting up a JavaScript linter that follows the popular Airbnb style guide in Sublime 3 (here is the [Airbnb guide definition](https://github.com/airbnb/javascript)). Specifically, I will walk through installation of Package Control, SublimeLinter-jscs, SublimeLinter-jshint and Trailing Spaces.
 
 ## Package Control
 
@@ -25,9 +25,9 @@ The first package we need is 'SublimeLinter'.  SublimeLinter will be extended wi
 
 JSCS is a popular code syle checker/enforcer. Installing JSCS is a three-step process:
 
-* JSCS is a node package, so first install it using npm.  From the terminal, run `npm install jscs -g` so that JSCS is globally available on your machine (if you are interested, readme is [here](http://jscs.info/overview)).
+* JSCS is a Node.js package, so first install it using npm.  From the terminal, run `npm install jscs -g` so that JSCS is globally available on your machine (if you are interested, readme is [here](http://jscs.info/overview)).
 
-* Next, to link JSCS to Sublime, install the 'SublimeLinter-jscs' plug-in by choosing it from the Package Control: Install Package list. [Note 'SublimeLinter-jscs' will only appear in Sublime v3.]
+* Next, to link JSCS to Sublime, install the 'SublimeLinter-jscs' plug-in by choosing it from the Package Control: Install Package list. [Note 'SublimeLinter-jscs' will only appear in Sublime 3.]
 
 * After SublimeLinter-jscs is installed, you need to specify the linting rules. The rules can be specified by directory (per project), but it is helpful to setup a default rules file that is applied to any JavaScript document that is a child of your home folder directory (and does not have a rules file).  To setup a default rules file, just create a file in your home directory [~] called .js<span style="color:red">**cs**</span>rc (make sure the file name is correct!) and paste in the following code:
 
