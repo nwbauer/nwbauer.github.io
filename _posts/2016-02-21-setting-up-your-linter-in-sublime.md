@@ -3,7 +3,7 @@ layout: post
 title: Setting Up Your Linter In Sublime
 ---
 
-Linters are time savers.  They help spot syntax errors, undeclared variables, and make your code look consistent.  This post will walk you through setting up a linter that follows the airbnb style guide in Sublime (here is the [guide definition](https://github.com/airbnb/javascript)).  Specifically, I will walk-through installation of Package Control, SublimeLinter-jscs, SublimeLinter-jshint and Trailing Spaces.
+Linters are time savers.  They help spot syntax errors, undeclared variables, and make your code look consistent.  This post will walk you through setting up a JavaScript linter that follows the airbnb style guide in Sublime (here is the [guide definition](https://github.com/airbnb/javascript)).  Specifically, I will walk-through installation of Package Control, SublimeLinter-jscs, SublimeLinter-jshint and Trailing Spaces.
 
 ## Package Control
 
@@ -17,9 +17,9 @@ Later in this post, I will list the packages that I find helpful.  But first, we
 
 ## Sublime Linter
 
-The main package is the 'SublimeLinter'.  SublimeLinter can be extended with the JSCS and jsHint plug-ins. 
+The first package we need is 'SublimeLinter'.  SublimeLinter will be extended with the JSCS and jsHint plug-ins.
 
-* Launch Sublime, Shift+Command+P,  choose 'Package Control: Install Package', type 'SublimeLinter' and choose it from the dropdown list to install the plug-in.
+* Launch Sublime, Shift+Command+P,  choose 'Package Control: Install Package', type 'SublimeLinter' and choose it from the dropdown list to install the package. (Make sure it is just 'SublimeLinter' and not 'SublimeLinter-*')
 
 ## JSCS
 
@@ -29,7 +29,7 @@ JSCS is a popular code syle checker/enforcer. Installing JSCS is a four-step pro
 
 * Next, install 'SublimeLinter-jscs' plugin by choosing it from the Install Package dropdown list to install the plug-in. [Note 'SublimeLinter-jscs' will only appear in Sublime v3.]
 
-* After SublimeLinter-jscs is installed, you need to specify the linting rules. The rules can be specified by directory (per project), but it is helpful to setup a default rules file that is applied to any javascript document that is a child of your home folder directory (and does not have a rules file).  To setup a default rules file, just create a file in your home directory [~] called .js**cs**rc (make sure the name is correct!) and paste in the following code:
+* After SublimeLinter-jscs is installed, you need to specify the linting rules. The rules can be specified by directory (per project), but it is helpful to setup a default rules file that is applied to any JavaScript document that is a child of your home folder directory (and does not have a rules file).  To setup a default rules file, just create a file in your home directory [~] called .js**cs**rc (make sure the name is correct!) and paste in the following code:
 
 <div style="font-size:14px;">
 {% highlight javascript %}
@@ -39,13 +39,13 @@ JSCS is a popular code syle checker/enforcer. Installing JSCS is a four-step pro
 {% endhighlight %}
 </div>
 
-JSCS has a really convenient "preset" option where many popular linting rule sets are pre-defined.  You can look at the presets on the JSCS readme, given above.
+JSCS has a really convenient "preset" option where many popular linting rule-sets are pre-defined.  You can look at the presets on the JSCS readme, given above.
 
 To ensure that that your code is linted as you type, you can right click on a document, choose Sublime Linter > Lint Mode > Background.
 
 ![JSCS background]({{ site.url }}/images/background-lint.png){: .one-image-center}
 
-Now, you should have JSCS linting up and running.  Let's test if it is working.  If you open a javascript document in Sublime, you should see faint yellow boxes that surround linting errors. Error messages will appear at the bottom of the Sublime window.  A common linting error for airbnb is spaces around parenthesis (so "function(){" will throw a warning that you need spaces).  Here is an example:
+Now, you should have JSCS linting up and running.  Let's test if it is working.  If you open a JavaScript document in Sublime, you should see faint yellow boxes that surround linting errors. Error messages will appear at the bottom of the Sublime window.  A common linting error for airbnb is spaces around parenthesis (so "function(){" will throw a warning that you need spaces).  Here is an example:
 
 ![JSCS warning]({{ site.url }}/images/linter-error.png){: .one-image-center}
 ![JSCS warning]({{ site.url }}/images/linter-message.png){: .one-image-center}
@@ -59,7 +59,7 @@ JsHint is yet another popular code syle checker/enforcer, but with slightly diff
 
 * To install jsHint, choose 'SublimeLinter-jshint' using the Sublime Package Control.
 
-Once again, you need to set default settings.  To do this, just create a file in your home directory [~] called '.jshintrc' and paste in the following code:
+Just like JSCS, you need to create a default rules file that defines the rules for jsHint.  To do this, just create a file in your home directory [~] called '.jshintrc' and paste in the following code:
 
 <div style="font-size:14px;">
 {% highlight javascript %}
@@ -154,7 +154,7 @@ Once again, you need to set default settings.  To do this, just create a file in
 {% endhighlight %}
 </div>
 
-Now, let's see if jsHint is working.  If you go back to a javascript document in Sublime, try to add extra unused variables and see if those are boxed in yellow as well.
+Now, let's see if jsHint is working.  If you go back to a JavaScript document in Sublime, try to add extra unused variables and see if those are boxed in yellow as well.
 
 ![JSCS warning]({{ site.url }}/images/linter-error2.png){: .one-image-center}
 ![JSCS warning]({{ site.url }}/images/linter-message2.png){: .one-image-center}
