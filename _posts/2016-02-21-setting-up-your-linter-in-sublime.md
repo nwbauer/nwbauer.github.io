@@ -23,7 +23,7 @@ The first package we need is 'SublimeLinter'.  SublimeLinter will be extended wi
 
 ## JSCS
 
-JSCS is a popular code syle checker/enforcer. Installing JSCS is a four-step process:
+JSCS is a popular code syle checker/enforcer. Installing JSCS is a three-step process:
 
 * JSCS is a node package, so first install it using npm.  From the terminal, run `npm install jscs -g` so that JSCS is globally available on your machine (if you are interested, readme is [here](http://jscs.info/overview)).
 
