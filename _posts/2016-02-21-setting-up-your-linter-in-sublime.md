@@ -45,12 +45,12 @@ To ensure that that your code is linted as you type, you can right click on a do
 
 ![JSCS background]({{ site.url }}/images/background-lint.png){: .one-image-center}
 
-Now, let's test if JSCS is working.  JSCS will surround linting errors in faint yellow boxes and error messages will appear at the bottom of the Sublime window.  A common linting error for Airbnb is spaces around parenthesis (so `function()` will throw a warning that you need spaces).  Make this linting error and check for yellow boxes around your parenthesis like this:
+Now, let's test if JSCS is working.  SublimeLint will surround JSCS linting errors in faint yellow boxes and error messages will appear at the bottom of the Sublime window.  A common linting error for Airbnb is spaces around parenthesis (so `function()` will throw a warning that you need spaces).  Make this linting error and check for yellow boxes around your parenthesis like this:
 
 ![JSCS warning]({{ site.url }}/images/linter-error.png){: .one-image-center}
 ![JSCS warning]({{ site.url }}/images/linter-message.png){: .one-image-center}
 
-You should get Sublime to highlight the above linting error before proceeding. If you don't see the above highlighted text, double check the spelling of the rules file (the path must be ~/.jscsrc).
+You should get SublimeLint to highlight the above linting error before proceeding. If you don't see the above highlighted text, double check the spelling of the rules file (the path must be ~/.jscsrc).
 
 JSCS is really helpful, but the style guidelines do not specify things like unused variables.  To make your linting even more powerful, you'll need JSHint, which is another linting tool.
 
@@ -160,7 +160,7 @@ Now, let's see if JSHint is working.  If you go back to a JavaScript document in
 ![JSCS warning]({{ site.url }}/images/linter-error2.png){: .one-image-center}
 ![JSCS warning]({{ site.url }}/images/linter-message2.png){: .one-image-center}
 
-Once again, make sure Sublime is highlighting the above linting error before proceeding.
+Once again, make sure SublimeLint is highlighting the above linting error before proceeding.
 
 ## Trailing Spaces
 
