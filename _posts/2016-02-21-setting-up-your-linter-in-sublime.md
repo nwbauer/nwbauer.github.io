@@ -23,7 +23,7 @@ JSCS is a popular code syle checker/enforcer. Installing JSCS is a four-step pro
 
 * Next, install the Sublime plugin 'SublimeLinter'.  Launch Sublime, Shift+Command+P,  choose 'Package Control: Install Package', type 'SublimeLinter' and choose it from the dropdown list to install the plug-in.
 
-* Next, install 'SublimeLinter-jscs' by choosing it from the Install Package dropdown list to install the plug-in. [Note 'SublimeLinter-jscs' will only appear in Sublime v3.]
+* Next, install 'SublimeLinter-jscs' plugin by choosing it from the Install Package dropdown list to install the plug-in. [Note 'SublimeLinter-jscs' will only appear in Sublime v3.]
 
 * After SublimeLinter-jscs is installed, you need to specify the linting rules. The rules can be specified by directory (per project), but it is helpful to setup a default rules file that is applied to any javascript document that is a child of your home folder directory (and does not have a rules file).  To setup a default rules file, just create a file in your home directory [~] called '.jscsrc' and paste in the following code:
 
@@ -51,7 +51,7 @@ This is cool, but the airbnb style guidelines does not check for things like unu
 
 ## jsHint
 
-JsHint is yet another popular code syle checker/enforcer, but with slightly different rules than JSCS. To install jsHint, choose 'SublimeLinter-jsHint' using the Sublime Package Control.
+JsHint is yet another popular code syle checker/enforcer, but with slightly different rules than JSCS. To install jsHint, choose 'SublimeLinter-jshint' using the Sublime Package Control.
 
 Once again, you need to set default settings.  To do this, just create a file in your home directory [~] called '.jshintrc' and paste in the following code:
 
@@ -157,7 +157,7 @@ Now, let's see if jsHint is working.  If you go back to a javascript document in
 
 Finally, to complete the linter install, the last package I would recommend is Trailing Spaces.  This will highlight any spaces in your code.  Spaces are easy to sneak by unnoticed, so this package helps.
 
-To install Trailing Spaces, choose 'Trailing Spaces' using the Sublime Package Control.  Here is an example of how trailing space indicates where unnecessary spaces are located:
+To install Trailing Spaces, choose 'TrailingSpaces' using the Sublime Package Control.  Here is an example of how trailing space indicates where unnecessary spaces are located:
 
 ![JSCS warning]({{ site.url }}/images/linter-error3.png){: .one-image-center}
 
@@ -167,11 +167,11 @@ Now, you should have cleanly spaced code, fewer unnoticed syntax errors, no rand
 
 Here are a list of other Sublime packages which are really useful:
 
-* Bracket Highlighter
+* BracketHighlighter
 * Git
-* Git Gutter
+* GitGutter
 * Emmet
-* Side Bar
+* SideBarEnhancements
 * Terminal
 * All Autocomplete
 
