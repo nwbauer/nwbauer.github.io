@@ -3,7 +3,7 @@ layout: post
 title: Debugging Tree Traversals
 ---
 
-Software engineers often have to write code that searches a through tree data-structure. At some point, a bug will present itself, and you (the software engineer) will need to figure it out quickly.  Tree traversal algorithms are commonly written recursively, which are inherently painful to debug (especially if it is not your code). There are always a few questions that should immediately come to mind when debugging tree traversal/search algorithms:
+Software engineers often have to write code that searches through a tree data structure. At some point, a bug will present itself, and you (the software engineer) will need to figure it out quickly.  Tree traversal algorithms are commonly written recursively, which are inherently painful to debug (especially if it is not your code). There are always a few questions that should immediately come to mind when debugging tree traversal/search algorithms:
 
 * Is the algorithm going to the bottom of the tree?
 * Is the algorithm visiting all the leaves?
