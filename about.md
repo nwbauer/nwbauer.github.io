@@ -45,7 +45,7 @@ Journal
 * [Decentralized Obeserver-Based Control via Networked Communication](http://www.sciencedirect.com/science/article/pii/S0005109813002318)
 * [Stability Analysis of Networked Control Systems: A Sum of Squares Approach](http://www.sciencedirect.com/science/article/pii/S0005109812001963)
 
-### Conference Presentations
+### Engineering Conference Presentations
 
 * [2012 - IEEE ACC Montreal, Canada](http://ieeexplore.ieee.org/xpl/login.jsp?reload=true&tp=&arnumber=6315034&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6315034)
 * [2010 - IEEE CDC Atlanta, USA](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=5717506&queryText%3DStability+Analysis+of+Networked+Control+Systems%3A+A+Sum+of+Squares+Approach)
