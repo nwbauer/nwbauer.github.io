@@ -28,7 +28,18 @@ permalink: /about/
 ![Photoshop Thesis Design]({{ site.baseurl }}/images/ps_nick.png)
 ![Photoshop Thesis Design]({{ site.baseurl }}/images/ps_menno.png)
 
+### Some Hardware Stuff
+
+![Inverted Pendulum]({{ site.baseurl }}/images/invPendSetup.jpg)
+
+
 ### Academic Publications
+
+Magazine
+
+* [Exploring the Boundaries of Robust Stability Under Uncertain Communication: An NCS Toolbox Applied to a Wireless Control Setup](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6853509&queryText=Exploring%20the%20Boundaries%20of%20Robust%20Stability&newsearch=true)
+
+Journal
 
 * [Networked Control Systems: From Theory to Experiments (Thesis)](http://repository.tue.nl/748429)
 * [Decentralized Obeserver-Based Control via Networked Communication](http://www.sciencedirect.com/science/article/pii/S0005109813002318)
