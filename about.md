@@ -47,17 +47,22 @@ Journal
 
 ### Engineering Conference Presentations
 
-| 2012 - IEEE ACC Montreal, Canada | [paper](http://ieeexplore.ieee.org/xpl/login.jsp?reload=true&tp=&arnumber=6315034&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6315034){:target="_blank"} | [slides]({{ site.baseurl }}/pdfs/ncsStatic_vAcc.pdf){:target="_blank"}
-| 2010 - IEEE CDC Atlanta, USA | [paper](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=5717506&queryText%3DStability+Analysis+of+Networked+Control+Systems%3A+A+Sum+of+Squares+Approach){:target="_blank"} | [slides]({{ site.baseurl }}/pdfs/SOS_vCDC_final.pdf){:target="_blank"}
+
 | 2010 - IEEE ACC Atlanta, USA | [paper](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=5531331&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D5531331){:target="_blank"} | [slides]({{ site.baseurl }}/pdfs/LargeScaleNCS_vACC.pdf){:target="_blank"}
+| 2010 - IEEE CDC Atlanta, USA | [paper](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=5717506&queryText%3DStability+Analysis+of+Networked+Control+Systems%3A+A+Sum+of+Squares+Approach){:target="_blank"} | [slides]({{ site.baseurl }}/pdfs/SOS_vCDC_final.pdf){:target="_blank"}
+| 2012 - IEEE ACC Montreal, Canada | [paper](http://ieeexplore.ieee.org/xpl/login.jsp?reload=true&tp=&arnumber=6315034&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6315034){:target="_blank"} | [slides]({{ site.baseurl }}/pdfs/ncsStatic_vAcc.pdf){:target="_blank"}
 
-### Educational Presentations
+### Math Educational Presentations
 
 
-| Angles of Angry Birds      | [slides]({{ site.baseurl }}/pdfs/angles_of_angry_birds.pdf){:target="_blank"} |
-| Sampling and Aliasing     | [slides]({{ site.baseurl }}/pdfs/math_busted.pdf){:target="_blank"} |
-| Geometry of GPS     | [slides]({{ site.baseurl }}/pdfs/geometry_of_gps.pdf){:target="_blank"} |
-| Potion Logic     | [slides]({{ site.baseurl }}/pdfs/potion_logic.pdf){:target="_blank"} |
+| 2015 - Angles of Angry Birds | [slides]({{ site.baseurl }}/pdfs/angles_of_angry_birds.pdf){:target="_blank"} |
+| 2015 - Sampling and Aliasing | [slides]({{ site.baseurl }}/pdfs/math_busted.pdf){:target="_blank"} |
+| 2016 - Geometry of GPS | [slides]({{ site.baseurl }}/pdfs/geometry_of_gps.pdf){:target="_blank"} |
+| 2016 - Potion Logic | [slides]({{ site.baseurl }}/pdfs/potion_logic.pdf){:target="_blank"} |
+
+### Software Educational Presentations
+
+| 2016 - Angular Directives | @Telegraph Academy | [slides]({{ site.baseurl }}/pdfs/directives.pdf){:target="_blank"} |
 
 
 ### Contact me
