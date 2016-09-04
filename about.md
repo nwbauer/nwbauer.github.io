@@ -41,9 +41,12 @@ Magazine
 
 Journal
 
-* [Networked Control Systems: From Theory to Experiments (Thesis)](http://repository.tue.nl/748429){:target="_blank"}
 * [Decentralized Obeserver-Based Control via Networked Communication](http://www.sciencedirect.com/science/article/pii/S0005109813002318){:target="_blank"}
 * [Stability Analysis of Networked Control Systems: A Sum of Squares Approach](http://www.sciencedirect.com/science/article/pii/S0005109812001963){:target="_blank"}
+
+Thesis
+
+* [Networked Control Systems: From Theory to Experiments](http://repository.tue.nl/748429){:target="_blank"}
 
 ### Engineering Conference Presentations
 
